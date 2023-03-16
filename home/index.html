@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slamdunk</title>
+    <style>
+        body{
+            width: 1200px;
+            margin: 0 auto;
+            height: 1000px;
+        }
+        #top {
+            position: fixed; 
+            bottom: 50px; 
+            right: 50px;
+        }
+        .clear{
+            clear: both;
+        }
+        #aside{
+            margin-top: 200px;
+            float: left;
+            width: 180px;
+        }
+        #header{
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        #section{
+            margin-top: 50px;
+            margin-left: 50px;
+            float: left;
+            width: 320px;
+        }
+        #section2{
+            margin-top: 50px;
+            float: right;
+            width: 620px;
+        }
+        #section3{
+            margin-top: 640px;
+            margin-left: -320px;
+            float: left;
+            width: 320px;
+        }
+        #section4{
+            margin-top: 175px;
+            float: right;
+            width: 620px;
+        }
+        #navigation{
+            text-align: center;
+            margin-top: 0px;
+            border-bottom: solid 2px #aaaaaa;
+        }
+        #footer{
+            border-top: solid 2px #aaaaaa;
+        }
+
+        ul{
+            list-style-type: none;
+        }
+        #menu{
+            padding: 0px;
+            font-weight: bold;
+        }
+        #menu li{
+            padding: 10px;
+            border-bottom: dashed 1px gray
+        }
+        a{
+            text-decoration: none;
+            color: black;
+
+        }
+        a:hover{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <img src="img/up.png" width="50px" id="top">
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+
+        var button = document.getElementById('top')
+        button.addEventListener('click',scrollToTop)
+    </script>
+
+    <div style="float: right; font-size: 12px;">회원가입 | 로그인 | 마이페이지 | 고개센터</div>
+    <div id="header"><a href=""><img src="img/Asset3.png" width="130px"></a></div>
+    <div id="navigation"><h3><a href="">슬램덩크</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<a href="">주인공</a>&nbsp;&nbsp;&nbsp; 
+        | &nbsp;&nbsp;&nbsp;<a href="">만화책</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;<a href="">외전</a>&nbsp;&nbsp;&nbsp; 
+        | &nbsp;&nbsp;&nbsp;<a href="">영화</a></h3></div>
+    <div class="clear"></div>
+
+    <div id="aside">
+        <h2>주인공</h2>
+        <ul id="menu">
+            <li>강백호</li>
+            <li>서태웅</li>
+            <li>송태섭</li>
+            <li>정대만</li>
+            <li>채치수</li>
+            <li>그 외</li>
+        </ul>
+    </div>
+
+    <div id="section">
+        <h3 style="margin-top: 50px; border-bottom: solid 2px #aaaaaa; width: 115px;">SLAM DUNK</h3><br>
+        <img src="img/book1.jpg" width="300px">
+    </div>
+
+    <div id="section2">
+        <h3 style="margin-top: 120px;">슬램덩크 만화책</h3>
+
+        <h4>평점&emsp;<img src="img/Asset 7.png" width="100px"></h4>
+        
+        <h4>소개</h4>
+        <p>주인공 강백호는 소연의 권유로 상북고의 농구부에 생떼를 써서 입단하게 된다. <br>
+            무식하고 힘만 센 강백호는 기초 연습만 하게 되지만 소연의 가르침에 힘입어 농구에 <br>대한 감각을 차차 익혀나간다. <br>
+            자칭 농구천재라 하고 상북고 최고의 플레이어 서태웅을 라이벌로 생각하기도 한다. <br>
+            노력파 채치수, 권준호 선배, 정대만, 송태섭 등과 같은 팀원들과 함께 점점 농구의 <br>매력에 빠져들게 된다.</p>
+    </div>
+
+    <div id="section3">
+        <img src="img/team2.jpg" width="300px"> <br><br>
+        <img src="img/team1.jpg" width="300px">
+    </div>
+
+    <div id="section4">
+        <h3>등장인물</h3>
+        <p style="margin-top: 20px;"><b>강백호</b> : 소연과 사귀기 위하여 농구부에 입단한 불순한 동기에서 농구시작.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            농구의 기본조차 모르던 무식쟁이였지만 점점 농구선수다운 면모로 변해간다. <br><br>
+
+        <b>서태웅</b> : 표정없는 얼굴 속에 농구경기 속에 몰입하는 집중력이 무서울 정도.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            독단적인 플레이를 하는 단점이 있지만 차츰 성장해 나간다.<br><br>
+
+        <b>송태섭</b> : 농구를 하기에는 단신이라는 약점에도 불구하고 약삭빠른 움직임으로<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            돌파력이 강하다.<br><br>
+
+        <b>정대만</b> : 다리를 다친 후로 깡패가 되는 방황을 겪었지만 다시 농구코트로 돌아온다.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            깨끗한 3점슛이 강점으로 상북에서는 중요한 플레이어.<br><br>
+
+        <b>채치수</b> : 무서운 얼굴이지만 상북고 농구부의 주장이자 기둥이다.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            천부적인 소질이 아닌 무섭게 노력한 덕분으로 실력을 키워나간다.<br><br>
+
+        <b>안감독</b> : 북산고등학교 농구부 감독. 대학 감독시절 혹독하기로 유명한 감독이었지만<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            어떤일을 계기로 현재는 웃는 표정만 짓는다.</p>
+    </div>
+
+    <div class="clear" style="margin-bottom: 200px;"></div>
+    <div id="footer"><img src="img/Asset3.png" width="100px"></div>
+    <div class="clear">22261097_임찬홍</div>
+    <br>
+</body>
+</html>
